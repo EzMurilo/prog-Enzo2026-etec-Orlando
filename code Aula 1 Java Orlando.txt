@@ -1,5 +1,5 @@
 public class Aula {
-//aula do dia 270526
+//primeira aula do orlando java
     public static void main(String[] args) {
         double n1 = 9, n2 = 9, n3 = 9;
         double total;
@@ -16,3 +16,78 @@ public class Aula {
         }
     }
 }
+//abaixo segunda aula do orlando e seus exercicios
+class Main {
+    public static void main(String[] args) {
+        int n;
+        int num1, num2, num3;
+        int idade;
+        idade = 15;
+        String nome = "Enzo";
+        System.out.println(nome);
+        
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        byte qtde = 1;
+        short numero_short;
+        int n;
+        long numero_long;
+        double valor;
+        float numero;
+        char letra = 'm';
+        String bairro;
+        boolean cadastro;
+        System.out.println(letra);
+        //System.out.println("Seu nome")
+        
+        cadastro = true;
+        
+        if(cadastro == true){
+            System.out.println("Cadastro funcionando!");
+        }
+        else{
+            System.out.println("ERRO!");
+        }
+        }
+    }
+
+import java.util.Scanner;
+class Input {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Digite um numero: ");
+        int numero = entrada.nextInt();
+        System.out.println("Valor digitado:"+numero);
+        //Abaixo fechando o objeto
+        entrada.close();
+    }
+}
+
+import java.util.Scanner;
+class Input {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.print("Aluno:");
+        String aluno = entrada.next();
+        System.out.print("Nota1:");
+        float n1 = entrada.nextFloat();
+        System.out.print("Nota2: ");
+        float n2 = entrada.nextFloat();
+        System.out.print("Nota3: ");
+        float n3 = entrada.nextFloat();
+        System.out.print("-----RESUMO-----\n");
+        float media;
+        media = (n1 + n2 + n3)/ 3; 
+        System.out.println("Aluno:"+aluno+"\n"+"Nota1; "+n1+"\nNota2: "+n2+"\nNota3: "+n3);
+        entrada.close();
+        
+        if(media >6){
+            System.out.println("Aluno "+aluno+" Aprovado com media:"+media);
+        }
+        else{
+            System.out.println("Aluno Reprovado!");
+        }
+        }
+    }
