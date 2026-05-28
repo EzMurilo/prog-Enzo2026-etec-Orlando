@@ -1,0 +1,18 @@
+public class Aula {
+//aula do dia 270526
+    public static void main(String[] args) {
+        double n1 = 9, n2 = 9, n3 = 9;
+        double total;
+        double media;
+        total = n1 + n2 + n3;
+        media = total / 3;
+        System.out.println("Soma:"+total+"\nMedia:"+media);
+        
+        if (media >= 7){
+            System.out.println("Aluno aprovado!");
+        }
+        else {
+            System.out.println("Aluno Reprovado");
+        }
+    }
+}
